@@ -5,13 +5,11 @@
             li{
             color:red;
             }
-		  span{
-		  color:red;
-		  }
+		
             </style>
 			<div class="container">
              <ul>
-  <li><span style="color: #888">&#8226;</span> Experienced full-stack web developer with expertise in JavaScript, React, and MongoDB. &#x1F4BB;</li>
+  <li><span style="color: #FFF">&#8226;</span> Experienced full-stack web developer with expertise in JavaScript, React, and MongoDB. &#x1F4BB;</li>
   <li><span style="color: #888">&#8226;</span> Skilled in Android app development using Java and Kotlin. &#x1F4E1;</li>
   <li><span style="color: #888">&#8226;</span> Strong problem-solving skills and a passion for creating efficient solutions. &#x1F9EA;</li>
   <li><span style="color: #888">&#8226;</span> Proficient in front-end development with React, building intuitive and responsive user interfaces. &#x1F4C8;</li>
