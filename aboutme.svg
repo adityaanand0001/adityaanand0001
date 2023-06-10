@@ -21,10 +21,11 @@
 	
 		
             </style>
-			<img src="bannerFinal.png" width="960px" alt="banner"></img>
+		
 			<div class="container">
 				
 				<h1>ABOUT ME ✍ </h1>
+					<img src="bannerFinal.png" width="960px" alt="banner"></img>
              <ul>
   <li>Experienced full-stack web developer with expertise in JavaScript, React, and MongoDB. &#x1F4BB;</li>
   <li>Skilled in Android app development using Java and Kotlin. &#x1F4E1;</li>
