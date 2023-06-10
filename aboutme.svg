@@ -1,6 +1,11 @@
 <svg fill="none"  width="800" height="1280" xmlns="http://www.w3.org/2000/svg">
 	<foreignObject width="100%" height="100%">
 		<div xmlns="http://www.w3.org/1999/xhtml">
+          <style>
+            li{
+            color:red;
+            }
+            </style>
 			<div class="container">
              <ul>
   <li><span style="color: #888">&#8226;</span> Experienced full-stack web developer with expertise in JavaScript, React, and MongoDB. &#x1F4BB;</li>
