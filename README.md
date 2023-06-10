@@ -1,1 +1,1 @@
-[alt='github' height='40'>](https://github.com/aditya0001/banner.png) 
+<img src='images/Github_banner.png' alt="banner"></img>
