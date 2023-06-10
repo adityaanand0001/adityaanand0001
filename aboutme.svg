@@ -8,6 +8,7 @@
 		  font-family:sans-serif;
 		  }
             li{
+		  color:white
 		    list-style:none;
             list-style-image: url("style.gif");
 		  font-family:sans-serif;
