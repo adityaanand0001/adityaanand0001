@@ -9,7 +9,7 @@
 		  }
             li{
 		    list-style:none;
-            list-style-image: url(".gif");
+            list-style-image: url("https://github.com/adityaanand0001/adityaanand0001/assets/98987504/c091932b-20cf-444b-876c-70d0a2a33945");
 		  font-family:sans-serif;
 	
             }
