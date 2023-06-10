@@ -2,5 +2,7 @@
 
 [<img src="aboutme.svg" >](https://github.com/adityaanand0001/adityaanand0001/blob/09c09e10cd5c8ffeeec5276b975d1f868eb52b16/aboutme.svg)
 <img src="https://img.shields.io/badge/LinkedIn-0A66C2.svg?style=for-the-badge&logo=LinkedIn&logoColor=white">
+&nbsp
+<img src="https://img.shields.io/badge/Instagram-E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white">
 			
 				
