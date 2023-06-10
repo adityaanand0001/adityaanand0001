@@ -1,4 +1,4 @@
-<svg fill="none"  width="800" height="400" xmlns="http://www.w3.org/2000/svg">
+<svg fill="none"  width="960" height="400" xmlns="http://www.w3.org/2000/svg">
 	<foreignObject width="100%" height="100%">
 		<div xmlns="http://www.w3.org/1999/xhtml">
 			
@@ -22,6 +22,7 @@
 		
             </style>
 			<div class="container">
+				<img src='https://github.com/adityaanand0001/adityaanand0001/blob/09da1cd54874462657afb09f66201f0223c0e20f/bannerFinal.png' width="960px" alt="banner"></img>
 				<h1>ABOUT ME ✍ </h1>
              <ul>
   <li>Experienced full-stack web developer with expertise in JavaScript, React, and MongoDB. &#x1F4BB;</li>
