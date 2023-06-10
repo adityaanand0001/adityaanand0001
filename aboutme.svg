@@ -3,6 +3,9 @@
 		<div xmlns="http://www.w3.org/1999/xhtml">
 			
           <style>
+		  *{
+		  background:black;
+		  }
 		  h1{
 		  color:#00eaff;
 		  font-family:sans-serif;
@@ -14,9 +17,6 @@
 		  font-family:sans-serif;
 	
             }
-		  .body{
-		  background-color:black;
-		  }
 		 
 	
 		
