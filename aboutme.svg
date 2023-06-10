@@ -10,7 +10,7 @@
             li{
 		  color:white;
 		   
-            list-style-image: url("li.gif");
+            background: url("li.gif");
 		  font-family:sans-serif;
 	
             }
