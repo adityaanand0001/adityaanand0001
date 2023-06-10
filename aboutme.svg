@@ -5,9 +5,12 @@
           <style>
 		  h1{
 		  color:#00eaff;
+		  font-family:sans-serif;
 		  }
             li{
             color:white;
+		  font-family:sans-serif;
+	
             }
 		 
 	
