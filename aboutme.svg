@@ -5,10 +5,7 @@
             li{
             color:red;
             }
-		  li::before {
-  content: "• ";
-  color: red;
-}
+	
 		
             </style>
 			<div class="container">
