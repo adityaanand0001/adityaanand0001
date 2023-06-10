@@ -5,6 +5,9 @@
             li{
             color:red;
             }
+		  span{
+		  color:white;
+		  }
             </style>
 			<div class="container">
              <ul>
