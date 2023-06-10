@@ -6,7 +6,7 @@
             color:red;
             }
 		  span{
-		  color:white;
+		  color:red;
 		  }
             </style>
 			<div class="container">
