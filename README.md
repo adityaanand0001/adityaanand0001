@@ -6,7 +6,7 @@ Premium: boxy buttons (6px), subtle curves, clean accents
 hero.svg loaded via <img> bypasses GitHub HTML sanitizer
 ═══════════════════════════════════════════════════════════════════ -->
 
-<img src="hero.svg" width="100%" alt="Aditya Anand — AI Engineer | SDE-1">
+<img src="banner.svg" width="100%" alt="Aditya Anand — AI Engineer | SDE-1">
 
 <br>
 
