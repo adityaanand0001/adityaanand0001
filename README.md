@@ -62,8 +62,8 @@
   <img src="https://img.shields.io/badge/SALES%20OUTREACH%20—%20LangGraph%20AI-21262d?style=for-the-badge&logo=github&logoColor=white">
 </a>
 &nbsp;
-<a href="https://github.com/adityaanand0001/swades-ai">
-  <img src="https://img.shields.io/badge/HEALOSBENCH%20—%20Medical%20AI-21262d?style=for-the-badge&logo=github&logoColor=white">
+<a href="https://github.com/adityaanand0001/healos-ai-agent">
+  <img src="https://img.shields.io/badge/HEALOS%20AI%20AGENT-21262d?style=for-the-badge&logo=github&logoColor=white">
 </a>
 
 <br><br>
