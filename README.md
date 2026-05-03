@@ -7,11 +7,20 @@
      Shape: pill CTAs · zero radius · no shadow · 1px hairline only
      ═══════════════════════════════════════════ -->
 
-<!-- CAMPAIGN HERO — editorial full-bleed -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://readme-svg-banner.vercel.app/api?text=ADITYA%20ANAND&subtext=BUILDER&bg=%23111111&textColor=%23ffffff&subColor=%239e9ea0&font=impact&fontSize=72&subSize=24&width=960&height=400" />
-  <img src="https://readme-svg-banner.vercel.app/api?text=ADITYA%20ANAND&subtext=BUILDER&bg=%23111111&textColor=%23ffffff&subColor=%239e9ea0&font=impact&fontSize=72&subSize=24&width=960&height=400" alt="ADITYA ANAND" width="960" />
-</picture>
+<!-- CAMPAIGN HERO — editorial full-bleed, inline SVG, Nike display-campaign lockup -->
+<svg width="960" height="400" viewBox="0 0 960 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="960" height="400" fill="#111111"/>
+  <!-- abstract geometry — Nike editorial stand-in -->
+  <circle cx="780" cy="320" r="280" fill="none" stroke="white" stroke-opacity="0.03" stroke-width="1"/>
+  <circle cx="800" cy="300" r="200" fill="none" stroke="white" stroke-opacity="0.04" stroke-width="1"/>
+  <circle cx="820" cy="280" r="120" fill="none" stroke="white" stroke-opacity="0.05" stroke-width="1"/>
+  <line x1="0" y1="200" x2="960" y2="200" stroke="white" stroke-opacity="0.015" stroke-width="1"/>
+  <!-- DISPLAY HEADLINE — 96px condensed, uppercase, white -->
+  <text x="60" y="200" font-family="'Impact','Arial Black','Helvetica Neue',sans-serif" font-size="96" fill="#ffffff" font-weight="700" letter-spacing="-2" text-anchor="start">ADITYA</text>
+  <text x="60" y="280" font-family="'Impact','Arial Black','Helvetica Neue',sans-serif" font-size="96" fill="#ffffff" font-weight="700" letter-spacing="-2" text-anchor="start">ANAND</text>
+  <!-- subhead — stone, Inter/system, 24px -->
+  <text x="60" y="330" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="24" fill="#9e9ea0" font-weight="500" letter-spacing="0">BUILDER · OPEN SOURCE · FULL-STACK</text>
+</svg>
 
 <br><br>
 
