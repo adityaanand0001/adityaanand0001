@@ -1,0 +1,60 @@
+<svg width="880" height="260" viewBox="0 0 880 260" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .bg { fill: #0d1117; }
+      .border { stroke: #21262d; stroke-width: 1; }
+
+      .section-title {
+        font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+        font-size: 16px; fill: #f0f6fc; font-weight: 700;
+      }
+
+      .card-bg { fill: #161b22; stroke: #21262d; stroke-width: 1; }
+      .card-hover { fill: #1c2129; }
+
+      .proj-name {
+        font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+        font-size: 15px; fill: #58a6ff; font-weight: 600;
+      }
+      .proj-desc {
+        font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+        font-size: 12px; fill: #8b949e; font-weight: 400;
+      }
+      .proj-lang {
+        font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+        font-size: 11px; fill: #484f58; font-weight: 600;
+      }
+
+      .lang-dot-py { fill: #3572A5; }
+      .lang-dot-ts { fill: #3178C6; }
+
+      .accent { stroke: #f78166; stroke-width: 0.5; stroke-opacity: 0.3; }
+    </style>
+  </defs>
+
+  <rect width="880" height="260" class="bg"/>
+
+  <text x="36" y="38" class="section-title">FEATURED PROJECTS</text>
+
+  <!-- Card 1 -->
+  <rect x="36" y="54" width="800" height="58" rx="6" class="card-bg"/>
+  <text x="56" y="76" class="proj-name">Voxify — Agentic Voice AI</text>
+  <text x="56" y="96" class="proj-desc">AI voice agent for autonomous outbound sales calls. Perceives, reasons, decides, and acts in real time.</text>
+  <circle cx="660" cy="82" r="5" class="lang-dot-py"/>
+  <text x="672" y="86" class="proj-lang">Python</text>
+
+  <!-- Card 2 -->
+  <rect x="36" y="120" width="800" height="58" rx="6" class="card-bg"/>
+  <text x="56" y="142" class="proj-name">Agentic AI Sales Outreach</text>
+  <text x="56" y="162" class="proj-desc">AI-powered sales automation with LangGraph workflows, Gmail API integration, and lead management.</text>
+  <circle cx="660" cy="148" r="5" class="lang-dot-py"/>
+  <text x="672" y="152" class="proj-lang">Python</text>
+
+  <!-- Card 3 -->
+  <rect x="36" y="186" width="800" height="58" rx="6" class="card-bg"/>
+  <text x="56" y="208" class="proj-name">Swades AI — Clinical Extraction</text>
+  <text x="56" y="228" class="proj-desc">LLM-powered clinical data extraction with hallucination detection and per-field F1 evaluation.</text>
+  <circle cx="660" cy="214" r="5" class="lang-dot-ts"/>
+  <text x="672" y="218" class="proj-lang">TypeScript</text>
+
+</svg>

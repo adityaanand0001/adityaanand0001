@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="top.svg" width="100%" alt="Aditya Anand — Full Stack AI Engineer">
+<img src="header-top.svg" width="100%" alt="Aditya Anand — AI Engineer">
 
 <br>
 
@@ -17,12 +17,32 @@
 </a>
 &nbsp;
 <a href="#">
-  <img src="https://img.shields.io/badge/PORTFOLIO-000000?style=for-the-badge&logo=vercel&logoColor=white">
+  <img src="https://img.shields.io/badge/RESUME-000000?style=for-the-badge&logo=readthedocs&logoColor=white">
 </a>
 &nbsp;
 <img src="https://komarev.com/ghpvc/?username=adityaanand0001&style=flat-square&color=blue&label=PROFILE+VIEWS">
 
 <br><br>
+
+<h3>🛠 FEATURED PROJECTS</h3>
+
+<img src="projects.svg" width="100%" alt="Featured Projects">
+
+<p>
+  <a href="https://github.com/adityaanand0001/Voxify-Agentic-Voice-AI">
+    <img src="https://img.shields.io/badge/VOXIFY-000000?style=for-the-badge&logo=github&logoColor=white">
+  </a>
+  &nbsp;
+  <a href="https://github.com/adityaanand0001/Agentic-AI-Sales-Outreach-System">
+    <img src="https://img.shields.io/badge/SALES%20OUTREACH-000000?style=for-the-badge&logo=github&logoColor=white">
+  </a>
+  &nbsp;
+  <a href="https://github.com/adityaanand0001/swades-ai">
+    <img src="https://img.shields.io/badge/SWADES%20AI-000000?style=for-the-badge&logo=github&logoColor=white">
+  </a>
+</p>
+
+<br>
 
 <h3>⚡ TECH STACK</h3>
 
