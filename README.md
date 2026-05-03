@@ -63,7 +63,7 @@
 </a>
 &nbsp;
 <a href="https://github.com/adityaanand0001/swades-ai">
-  <img src="https://img.shields.io/badge/SWADES%20—%20Clinical%20LLM-21262d?style=for-the-badge&logo=github&logoColor=white">
+  <img src="https://img.shields.io/badge/HEALOSBENCH%20—%20Medical%20AI-21262d?style=for-the-badge&logo=github&logoColor=white">
 </a>
 
 <br><br>
