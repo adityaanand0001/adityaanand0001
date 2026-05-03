@@ -56,12 +56,12 @@
 <h3>📊 GITHUB STATS</h3>
 
 <p>
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=adityaanand0001&show_icons=true&theme=github_dark&hide_border=true&count_private=true&include_all_commits=true">
-  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=adityaanand0001&layout=compact&theme=github_dark&hide_border=true">
+  <img height="180" src="https://github-readme-stats-eight-theta.vercel.app/api?username=adityaanand0001&show_icons=true&theme=github_dark&hide_border=true&count_private=true&include_all_commits=true">
+  <img height="180" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=adityaanand0001&layout=compact&theme=github_dark&hide_border=true">
 </p>
 
 <p>
-  <img height="160" src="https://github-readme-streak-stats.vercel.app?user=adityaanand0001&theme=github-dark-blue&hide_border=true&background=0d1117&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff">
+  <img height="160" src="https://streak-stats.demolab.com?user=adityaanand0001&theme=github-dark-blue&hide_border=true&background=0d1117&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff">
 </p>
 
 <!-- ACTIVITY GRAPH -->
