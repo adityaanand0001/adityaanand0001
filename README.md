@@ -4,7 +4,6 @@
 
 <br>
 
-<!-- SOCIALS -->
 <a href="mailto:adityaanand9091@gmail.com">
   <img src="https://img.shields.io/badge/EMAIL-000000?style=for-the-badge&logo=gmail&logoColor=white">
 </a>
@@ -20,10 +19,11 @@
 <a href="#">
   <img src="https://img.shields.io/badge/PORTFOLIO-000000?style=for-the-badge&logo=vercel&logoColor=white">
 </a>
+&nbsp;
+<img src="https://komarev.com/ghpvc/?username=adityaanand0001&style=flat-square&color=blue&label=PROFILE+VIEWS">
 
 <br><br>
 
-<!-- TECH STACK -->
 <h3>⚡ TECH STACK</h3>
 
 <p>
@@ -52,7 +52,6 @@
 
 <br>
 
-<!-- ACTIVITY GRAPH -->
 <h3>📈 CONTRIBUTIONS</h3>
 
 <picture>
@@ -62,19 +61,16 @@
 
 <br>
 
-<!-- STREAK -->
 <p>
   <img height="150" src="https://streak-stats.demolab.com?user=adityaanand0001&theme=github-dark&hide_border=true&background=0d1117&ring=58a6ff&fire=58a6ff&sideNums=58a6ff&currStreakLabel=c9d1d9&sideLabels=8b949e&dates=484f58">
 </p>
 
-<!-- TROPHIES -->
 <picture>
   <img src="https://github-profile-trophy.vercel.app/?username=adityaanand0001&theme=darkhub&no-frame=true&margin-w=8&title=Experience,Commits,Repositories&column=3&v=1">
 </picture>
 
 <br>
 
-<!-- SNAKE GAME -->
 <h3>🐍 SNAKE</h3>
 
 <picture>
@@ -84,18 +80,10 @@
 
 <br>
 
-<!-- ABOUT -->
 <h3>🧠 ABOUT</h3>
 
 <img src="about.svg" width="100%" alt="About Aditya Anand">
 
 <br>
-
-<!-- VISITOR COUNT -->
-<img src="https://komarev.com/ghpvc/?username=adityaanand0001&style=flat-square&color=blue&label=PROFILE+VIEWS">
-
-<br>
-
-<img src="https://raw.githubusercontent.com/adityaanand0001/adityaanand0001/output/snake-dark.svg" width="1" height="1">
 
 </div>
