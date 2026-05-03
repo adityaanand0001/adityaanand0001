@@ -1,0 +1,98 @@
+<svg width="880" height="180" viewBox="0 0 880 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .bg { fill: #0d1117; }
+      .border { stroke: #21262d; stroke-width: 1; }
+
+      .name {
+        font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+        font-size: 32px; fill: #f0f6fc; font-weight: 700; letter-spacing: -0.5px;
+      }
+      .accent-dot { fill: #58a6ff; }
+      .role {
+        font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+        font-size: 15px; fill: #8b949e; font-weight: 600;
+      }
+      .bio {
+        font-family: 'Consolas', 'Cascadia Code', 'JetBrains Mono', monospace;
+        font-size: 12px; fill: #484f58; font-weight: 500;
+      }
+
+      .tag-bg { fill: #1f6feb; fill-opacity: 0.12; }
+      .tag-text {
+        font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+        font-size: 11px; fill: #58a6ff; font-weight: 600;
+      }
+
+      .div { stroke: #21262d; stroke-width: 1; }
+
+      .stat-num {
+        font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+        font-size: 18px; fill: #f0f6fc; font-weight: 700;
+      }
+      .stat-label {
+        font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+        font-size: 10px; fill: #484f58; font-weight: 600; letter-spacing: 0.5px;
+      }
+
+      .node { fill: #58a6ff; opacity: 0.4; }
+      .node-green { fill: #3fb950; opacity: 0.4; }
+      .edge { stroke: #30363d; stroke-width: 0.6; }
+    </style>
+  </defs>
+
+  <rect width="880" height="180" class="bg"/>
+
+  <!-- subtle grid -->
+  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+    <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#21262d" stroke-width="0.4" stroke-opacity="0.3"/>
+  </pattern>
+  <rect width="880" height="180" fill="url(#grid)"/>
+
+  <!-- LEFT — identity -->
+  <text x="36" y="58" class="name">Aditya Anand<tspan class="accent-dot">.</tspan></text>
+
+  <text x="36" y="84" class="role">Full Stack AI Engineer  ·  SDE-1</text>
+  <text x="36" y="106" class="bio">// autonomous agents · LLMs · full-stack systems</text>
+
+  <!-- tags -->
+  <rect x="36" y="126" width="82" height="22" rx="3" class="tag-bg"/>
+  <text x="77" y="141" class="tag-text" text-anchor="middle">AI Agents</text>
+
+  <rect x="126" y="126" width="52" height="22" rx="3" class="tag-bg"/>
+  <text x="152" y="141" class="tag-text" text-anchor="middle">LLMs</text>
+
+  <rect x="186" y="126" width="72" height="22" rx="3" class="tag-bg"/>
+  <text x="222" y="141" class="tag-text" text-anchor="middle">Full-Stack</text>
+
+  <rect x="266" y="126" width="78" height="22" rx="3" class="tag-bg"/>
+  <text x="305" y="141" class="tag-text" text-anchor="middle">Open Source</text>
+
+  <!-- RIGHT — stats -->
+  <line x1="620" y1="30" x2="620" y2="155" class="div"/>
+
+  <text x="660" y="60" class="stat-num">—</text>
+  <text x="660" y="78" class="stat-label">REPOS</text>
+
+  <text x="740" y="60" class="stat-num">—</text>
+  <text x="740" y="78" class="stat-label">STARS</text>
+
+  <text x="820" y="60" class="stat-num">—</text>
+  <text x="820" y="78" class="stat-label">COMMITS</text>
+
+  <text x="660" y="128" class="stat-num">—</text>
+  <text x="660" y="146" class="stat-label">FOLLOWERS</text>
+
+  <text x="740" y="128" class="stat-num">—</text>
+  <text x="740" y="146" class="stat-label">PRs</text>
+
+  <text x="820" y="128" class="stat-num">—</text>
+  <text x="820" y="146" class="stat-label">ISSUES</text>
+
+  <!-- mini agent nodes — right edge -->
+  <circle cx="590" cy="60" r="2.5" class="node"/>
+  <circle cx="590" cy="128" r="2.5" class="node-green"/>
+  <line x1="590" y1="60" x2="590" y2="128" class="edge"/>
+  <circle cx="590" cy="94" r="1.5" class="node"/>
+
+</svg>

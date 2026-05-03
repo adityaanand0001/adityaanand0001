@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="banner.svg" width="100%" alt="Aditya Anand — Full Stack AI Engineer">
+<img src="header-banner.svg" width="100%" alt="Aditya Anand — Full Stack AI Engineer">
 
 <br>
 
