@@ -1,16 +1,13 @@
-<svg width="960" height="560" viewBox="0 0 960 560" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="960" height="520" viewBox="0 0 960 520" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <style>
       .bg { fill: #111111; }
 
-      /* headline — system condensed font stack, 72px */
       .headline {
         font-family: 'Arial Narrow', 'Impact', 'Helvetica Neue Condensed', 'Arial Black', sans-serif;
         font-size: 72px; fill: #ffffff; font-weight: 700; letter-spacing: -1px;
-        font-stretch: condensed;
       }
 
-      /* subhead */
       .subhead {
         font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
         font-size: 18px; fill: #9e9ea0; font-weight: 600; letter-spacing: 0.5px;
@@ -21,75 +18,60 @@
       }
       .section-label {
         font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
-        font-size: 14px; fill: #ffffff; font-weight: 600; opacity: 0.65;
+        font-size: 14px; fill: #ffffff; font-weight: 600; opacity: 0.6;
       }
 
-      /* pills */
-      .pill-white-bg { fill: #ffffff; }
-      .pill-dark-bg  { fill: #f5f5f5; fill-opacity: 0.1; }
-      .pill-white-text {
+      /* boxy buttons — premium: subtle 6px curve, not pill */
+      .btn-white-bg { fill: #ffffff; }
+      .btn-dark-bg  { fill: #f5f5f5; fill-opacity: 0.08; stroke: #ffffff; stroke-width: 0.5; stroke-opacity: 0.1; }
+      .btn-white-text {
         font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
         font-size: 14px; fill: #111111; font-weight: 600;
       }
-      .pill-dark-text {
+      .btn-dark-text {
         font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
-        font-size: 13px; fill: #ffffff; fill-opacity: 0.62; font-weight: 500;
+        font-size: 14px; fill: #ffffff; fill-opacity: 0.6; font-weight: 500;
       }
 
-      /* agent swarm nodes — static glow dots */
-      .agent-teal   { fill: #00cec9; opacity: 0.85; }
-      .agent-violet { fill: #6c5ce7; opacity: 0.75; }
-      .agent-dim    { fill: #ffffff; opacity: 0.2; }
-
-      /* connection lines */
-      .conn { stroke: #ffffff; stroke-width: 0.5; stroke-opacity: 0.06; }
-      .conn-teal   { stroke: #00cec9; stroke-width: 0.7; stroke-opacity: 0.2; }
-      .conn-violet { stroke: #6c5ce7; stroke-width: 0.6; stroke-opacity: 0.16; }
+      /* skill chips — boxy with subtle curve */
+      .chip-white-bg { fill: #ffffff; }
+      .chip-dark-bg  { fill: #f5f5f5; fill-opacity: 0.08; stroke: #ffffff; stroke-width: 0.5; stroke-opacity: 0.1; }
+      .chip-white-text {
+        font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+        font-size: 13px; fill: #111111; font-weight: 600;
+      }
+      .chip-dark-text {
+        font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+        font-size: 13px; fill: #ffffff; fill-opacity: 0.6; font-weight: 500;
+      }
 
       .hairline { stroke: #ffffff; stroke-width: 1; stroke-opacity: 0.05; }
+
+      /* subtle geometry — premium accents */
+      .accent { fill: #00cec9; opacity: 0.7; }
+      .accent-line { stroke: #00cec9; stroke-width: 1; stroke-opacity: 0.12; }
+      .accent-dot { fill: #6c5ce7; opacity: 0.6; }
     </style>
   </defs>
 
   <!-- canvas -->
-  <rect width="960" height="560" class="bg"/>
+  <rect width="960" height="520" class="bg"/>
 
   <!-- utility strip -->
   <rect x="0" y="0" width="960" height="36" fill="#ffffff" fill-opacity="0.02"/>
-  <text x="40" y="22" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="11" fill="#ffffff" font-weight="500" opacity="0.45">ADITYA ANAND  ·  AI ENGINEER  ·  SDE-1</text>
-  <text x="920" y="22" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="11" fill="#ffffff" font-weight="500" opacity="0.35" text-anchor="end">Available for hire</text>
+  <text x="40" y="22" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="11" fill="#ffffff" font-weight="500" opacity="0.4">ADITYA ANAND  ·  AI ENGINEER  ·  SDE-1</text>
 
-  <!-- ═══════════════════════════ AGENT SWARM NETWORK ═══════════════════════ -->
+  <!-- subtle geometric accents — clean, minimal -->
+  <rect x="700" y="100" width="1" height="320" class="accent-line"/>
+  <rect x="700" y="260" width="240" height="1" class="accent-line"/>
+  <rect x="820" y="160" width="1" height="100" class="accent-line" stroke-opacity="0.08"/>
 
-  <!-- connection lines — sparse, geometric -->
-  <line x1="700" y1="140" x2="820" y2="200" class="conn-teal"/>
-  <line x1="820" y1="200" x2="880" y2="130" class="conn-violet"/>
-  <line x1="700" y1="140" x2="760" y2="260" class="conn"/>
-  <line x1="880" y1="130" x2="900" y2="220" class="conn"/>
-  <line x1="760" y1="260" x2="850" y2="300" class="conn-teal"/>
-  <line x1="820" y1="200" x2="900" y2="220" class="conn-violet"/>
-  <line x1="700" y1="140" x2="850" y2="300" class="conn"/>
-  <line x1="880" y1="130" x2="760" y2="260" class="conn"/>
-  <line x1="850" y1="300" x2="900" y2="220" class="conn"/>
-
-  <!-- agent nodes -->
-  <circle cx="700" cy="140" r="3.5" class="agent-teal"/>
-  <circle cx="820" cy="200" r="3"   class="agent-violet"/>
-  <circle cx="880" cy="130" r="3.5" class="agent-teal"/>
-  <circle cx="760" cy="260" r="2.5" class="agent-dim"/>
-  <circle cx="900" cy="220" r="3"   class="agent-violet"/>
-  <circle cx="850" cy="300" r="3.5" class="agent-teal"/>
-
-  <!-- halo rings around key agents -->
-  <circle cx="700" cy="140" r="8"  fill="none" stroke="#00cec9" stroke-width="0.5" stroke-opacity="0.15"/>
-  <circle cx="880" cy="130" r="8"  fill="none" stroke="#00cec9" stroke-width="0.5" stroke-opacity="0.12"/>
-  <circle cx="820" cy="200" r="10" fill="none" stroke="#6c5ce7" stroke-width="0.5" stroke-opacity="0.12"/>
-  <circle cx="850" cy="300" r="8"  fill="none" stroke="#00cec9" stroke-width="0.5" stroke-opacity="0.1"/>
-
-  <!-- peripheral micro-nodes -->
-  <circle cx="680" cy="180" r="1.5" class="agent-dim" opacity="0.15"/>
-  <circle cx="920" cy="170" r="1.5" class="agent-dim" opacity="0.12"/>
-  <circle cx="840" cy="110" r="1.5" class="agent-dim" opacity="0.18"/>
-  <circle cx="720" cy="300" r="1.5" class="agent-dim" opacity="0.1"/>
+  <!-- small accent dots -->
+  <rect x="698" y="130" width="5" height="5" rx="1" class="accent"/>
+  <rect x="698" y="260" width="5" height="5" rx="1" class="accent"/>
+  <rect x="820" y="158" width="5" height="5" rx="1" class="accent-dot"/>
+  <rect x="820" y="258" width="5" height="5" rx="1" class="accent-dot"/>
+  <rect x="938" y="260" width="5" height="5" rx="1" class="accent"/>
 
   <!-- ═══════════════════════════ TYPOGRAPHY ═══════════════════════════════ -->
 
@@ -99,56 +81,56 @@
   <text x="40" y="265" class="subhead">AI ENGINEER  |  SDE-1</text>
   <text x="40" y="295" class="tagline">Autonomous agents. Intelligent systems. Clean code.</text>
 
-  <!-- CTA pills -->
-  <rect x="40" y="334" width="170" height="44" rx="22" class="pill-white-bg"/>
-  <text x="125" y="362" class="pill-white-text" text-anchor="middle">GET IN TOUCH</text>
+  <!-- CTA buttons — boxy, subtle 6px curve -->
+  <rect x="40" y="334" width="170" height="44" rx="6" class="btn-white-bg"/>
+  <text x="125" y="362" class="btn-white-text" text-anchor="middle">GET IN TOUCH</text>
 
-  <rect x="224" y="334" width="150" height="44" rx="22" class="pill-dark-bg"/>
-  <text x="299" y="362" class="pill-dark-text" text-anchor="middle">LINKEDIN</text>
+  <rect x="224" y="334" width="150" height="44" rx="6" class="btn-dark-bg"/>
+  <text x="299" y="362" class="btn-dark-text" text-anchor="middle">LINKEDIN</text>
 
-  <rect x="388" y="334" width="180" height="44" rx="22" class="pill-dark-bg"/>
-  <text x="478" y="362" class="pill-dark-text" text-anchor="middle">VIEW REPOSITORIES</text>
+  <rect x="388" y="334" width="180" height="44" rx="6" class="btn-dark-bg"/>
+  <text x="478" y="362" class="btn-dark-text" text-anchor="middle">VIEW REPOSITORIES</text>
 
   <!-- divider -->
   <line x1="40" y1="415" x2="920" y2="415" class="hairline"/>
 
   <!-- ═══════════════════════════ TECH STACK ═══════════════════════════════ -->
 
-  <text x="40" y="455" class="section-label">TECH STACK</text>
+  <text x="40" y="453" class="section-label">TECH STACK</text>
 
-  <!-- Row 1 — primary skills (white pills) -->
-  <rect x="40" y="472" width="80" height="30" rx="15" class="pill-white-bg"/>
-  <text x="80" y="492" class="pill-white-text" text-anchor="middle">Python</text>
+  <!-- Row 1 — white chips -->
+  <rect x="40" y="468" width="76" height="30" rx="5" class="chip-white-bg"/>
+  <text x="78" y="488" class="chip-white-text" text-anchor="middle">Python</text>
 
-  <rect x="132" y="472" width="90" height="30" rx="15" class="pill-white-bg"/>
-  <text x="177" y="492" class="pill-white-text" text-anchor="middle">TypeScript</text>
+  <rect x="128" y="468" width="86" height="30" rx="5" class="chip-white-bg"/>
+  <text x="171" y="488" class="chip-white-text" text-anchor="middle">TypeScript</text>
 
-  <rect x="234" y="472" width="68" height="30" rx="15" class="pill-white-bg"/>
-  <text x="268" y="492" class="pill-white-text" text-anchor="middle">React</text>
+  <rect x="226" y="468" width="64" height="30" rx="5" class="chip-white-bg"/>
+  <text x="258" y="488" class="chip-white-text" text-anchor="middle">React</text>
 
-  <rect x="314" y="472" width="82" height="30" rx="15" class="pill-white-bg"/>
-  <text x="355" y="492" class="pill-white-text" text-anchor="middle">Next.js</text>
+  <rect x="302" y="468" width="78" height="30" rx="5" class="chip-white-bg"/>
+  <text x="341" y="488" class="chip-white-text" text-anchor="middle">Next.js</text>
 
-  <rect x="408" y="472" width="90" height="30" rx="15" class="pill-white-bg"/>
-  <text x="453" y="492" class="pill-white-text" text-anchor="middle">Node.js</text>
+  <rect x="392" y="468" width="86" height="30" rx="5" class="chip-white-bg"/>
+  <text x="435" y="488" class="chip-white-text" text-anchor="middle">Node.js</text>
 
-  <!-- Row 2 — secondary (dark pills) -->
-  <rect x="40" y="514" width="86" height="30" rx="15" class="pill-dark-bg"/>
-  <text x="83" y="534" class="pill-dark-text" text-anchor="middle">LangChain</text>
+  <!-- Row 2 — dark chips -->
+  <rect x="40" y="510" width="82" height="28" rx="5" class="chip-dark-bg"/>
+  <text x="81" y="529" class="chip-dark-text" text-anchor="middle">LangChain</text>
 
-  <rect x="138" y="514" width="100" height="30" rx="15" class="pill-dark-bg"/>
-  <text x="188" y="534" class="pill-dark-text" text-anchor="middle">LLMs / RAG</text>
+  <rect x="134" y="510" width="96" height="28" rx="5" class="chip-dark-bg"/>
+  <text x="182" y="529" class="chip-dark-text" text-anchor="middle">LLMs / RAG</text>
 
-  <rect x="250" y="514" width="72" height="30" rx="15" class="pill-dark-bg"/>
-  <text x="286" y="534" class="pill-dark-text" text-anchor="middle">Docker</text>
+  <rect x="242" y="510" width="68" height="28" rx="5" class="chip-dark-bg"/>
+  <text x="276" y="529" class="chip-dark-text" text-anchor="middle">Docker</text>
 
-  <rect x="334" y="514" width="56" height="30" rx="15" class="pill-dark-bg"/>
-  <text x="362" y="534" class="pill-dark-text" text-anchor="middle">AWS</text>
+  <rect x="322" y="510" width="52" height="28" rx="5" class="chip-dark-bg"/>
+  <text x="348" y="529" class="chip-dark-text" text-anchor="middle">AWS</text>
 
-  <rect x="402" y="514" width="94" height="30" rx="15" class="pill-dark-bg"/>
-  <text x="449" y="534" class="pill-dark-text" text-anchor="middle">PostgreSQL</text>
+  <rect x="386" y="510" width="90" height="28" rx="5" class="chip-dark-bg"/>
+  <text x="431" y="529" class="chip-dark-text" text-anchor="middle">PostgreSQL</text>
 
-  <rect x="508" y="514" width="86" height="30" rx="15" class="pill-dark-bg"/>
-  <text x="551" y="534" class="pill-dark-text" text-anchor="middle">MongoDB</text>
+  <rect x="488" y="510" width="82" height="28" rx="5" class="chip-dark-bg"/>
+  <text x="529" y="529" class="chip-dark-text" text-anchor="middle">MongoDB</text>
 
 </svg>
