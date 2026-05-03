@@ -5,7 +5,7 @@
 <br>
 
 <!-- SOCIALS -->
-<a href="mailto:aditya.anand@monks.com">
+<a href="mailto:adityaanand9091@gmail.com">
   <img src="https://img.shields.io/badge/EMAIL-000000?style=for-the-badge&logo=gmail&logoColor=white">
 </a>
 &nbsp;
