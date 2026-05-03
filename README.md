@@ -7,7 +7,7 @@ HTML sanitizer — <style> blocks, @import Google Fonts all preserved.
 ═══════════════════════════════════════════════════════════════════ -->
 
 <!-- HERO + TECH STACK — single external SVG, full CSS + Bebas Neue + Inter -->
-<img src="header.svg" width="100%" alt="Aditya Anand — AI Engineer | SDE-1">
+<img src="header.svg?v=2" width="100%" alt="Aditya Anand — AI Engineer | SDE-1">
 
 <br><br>
 
