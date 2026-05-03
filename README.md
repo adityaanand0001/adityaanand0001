@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="banner.svg" width="100%" alt="Aditya Anand — Agentic AI Engineer">
+<img src="banner.svg" width="100%" alt="Aditya Anand — Full Stack AI Engineer">
 
 <br>
 
@@ -31,7 +31,7 @@
   <img src="https://img.shields.io/badge/TYPESCRIPT-3178C6?style=for-the-badge&logo=typescript&logoColor=white">
   <img src="https://img.shields.io/badge/REACT-61DAFB?style=for-the-badge&logo=react&logoColor=black">
   <img src="https://img.shields.io/badge/NEXT.JS-000000?style=for-the-badge&logo=nextdotjs&logoColor=white">
-  <img src="https://img.shields.io/badge/NODE.JS-339933?style=for-the-badge&logo=nodedotjs&logoColor=white">
+  <img src="https://img.shields.io/badge/AI%20AGENTS-6C5CE7?style=for-the-badge&logo=robotframework&logoColor=white">
 </p>
 
 <p>
@@ -102,7 +102,7 @@
 adityaanand
 
 > role
-Agentic AI Engineer | SDE-1
+Full Stack AI Engineer | SDE-1
 
 > focus
 Building autonomous agent systems, RAG pipelines,

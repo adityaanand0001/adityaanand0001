@@ -112,7 +112,7 @@
   <text x="36" y="170" class="title">Anand<tspan class="title-accent">.</tspan></text>
 
   <!-- role -->
-  <text x="36" y="210" class="role">Agentic AI Engineer</text>
+  <text x="36" y="210" class="role">Full Stack AI Engineer</text>
 
   <!-- bio line -->
   <text x="36" y="240" class="bio">// autonomous agents · LLMs · full-stack systems</text>
