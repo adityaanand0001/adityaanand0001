@@ -5,19 +5,19 @@
 <br>
 
 <a href="mailto:adityaanand9091@gmail.com">
-  <img src="https://img.shields.io/badge/EMAIL-000000?style=for-the-badge&logo=gmail&logoColor=white">
+  <img src="https://img.shields.io/badge/EMAIL-21262d?style=for-the-badge&logo=gmail&logoColor=white">
 </a>
 &nbsp;
 <a href="https://linkedin.com/in/adityaArise">
-  <img src="https://img.shields.io/badge/LINKEDIN-000000?style=for-the-badge&logo=linkedin&logoColor=white">
+  <img src="https://img.shields.io/badge/LINKEDIN-21262d?style=for-the-badge&logo=linkedin&logoColor=white">
 </a>
 &nbsp;
 <a href="https://github.com/adityaanand0001">
-  <img src="https://img.shields.io/badge/GITHUB-000000?style=for-the-badge&logo=github&logoColor=white">
+  <img src="https://img.shields.io/badge/GITHUB-21262d?style=for-the-badge&logo=github&logoColor=white">
 </a>
 &nbsp;
 <a href="#">
-  <img src="https://img.shields.io/badge/RESUME-000000?style=for-the-badge&logo=readthedocs&logoColor=white">
+  <img src="https://img.shields.io/badge/RESUME-21262d?style=for-the-badge&logo=readthedocs&logoColor=white">
 </a>
 &nbsp;
 <img src="https://komarev.com/ghpvc/?username=adityaanand0001&style=flat-square&color=blue&label=PROFILE+VIEWS">
@@ -30,7 +30,7 @@
   <img src="https://img.shields.io/badge/PYTHON-3776AB?style=for-the-badge&logo=python&logoColor=white">
   <img src="https://img.shields.io/badge/TYPESCRIPT-3178C6?style=for-the-badge&logo=typescript&logoColor=white">
   <img src="https://img.shields.io/badge/REACT-61DAFB?style=for-the-badge&logo=react&logoColor=black">
-  <img src="https://img.shields.io/badge/NEXT.JS-000000?style=for-the-badge&logo=nextdotjs&logoColor=white">
+  <img src="https://img.shields.io/badge/NEXT.JS-21262d?style=for-the-badge&logo=nextdotjs&logoColor=white">
   <img src="https://img.shields.io/badge/AI%20AGENTS-6C5CE7?style=for-the-badge&logo=robotframework&logoColor=white">
 </p>
 
@@ -55,15 +55,15 @@
 <h3>🛠 PROJECTS</h3>
 
 <a href="https://github.com/adityaanand0001/Voxify-Agentic-Voice-AI">
-  <img src="https://img.shields.io/badge/VOXIFY%20—%20Voice%20AI%20Agent-000000?style=for-the-badge&logo=github&logoColor=white">
+  <img src="https://img.shields.io/badge/VOXIFY%20—%20Voice%20AI%20Agent-21262d?style=for-the-badge&logo=github&logoColor=white">
 </a>
 &nbsp;
 <a href="https://github.com/adityaanand0001/Agentic-AI-Sales-Outreach-System">
-  <img src="https://img.shields.io/badge/SALES%20OUTREACH%20—%20LangGraph%20AI-000000?style=for-the-badge&logo=github&logoColor=white">
+  <img src="https://img.shields.io/badge/SALES%20OUTREACH%20—%20LangGraph%20AI-21262d?style=for-the-badge&logo=github&logoColor=white">
 </a>
 &nbsp;
 <a href="https://github.com/adityaanand0001/swades-ai">
-  <img src="https://img.shields.io/badge/SWADES%20—%20Clinical%20LLM-000000?style=for-the-badge&logo=github&logoColor=white">
+  <img src="https://img.shields.io/badge/SWADES%20—%20Clinical%20LLM-21262d?style=for-the-badge&logo=github&logoColor=white">
 </a>
 
 <br><br>
