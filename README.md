@@ -1,16 +1,9 @@
 <div align="center">
 
-<!-- ═══════════════════════════════════════════════════════════════════
-NIKE DESIGN SYSTEM — GitHub Profile README
-Premium: boxy buttons (6px), subtle curves, clean accents
-hero.svg loaded via <img> bypasses GitHub HTML sanitizer
-═══════════════════════════════════════════════════════════════════ -->
-
 <img src="banner.svg" width="100%" alt="Aditya Anand — AI Engineer | SDE-1">
 
 <br>
 
-<!-- CLICKABLE CTA PILLS -->
 <a href="mailto:aditya.anand@monks.com">
   <img src="https://img.shields.io/badge/GET%20IN%20TOUCH-111111?style=for-the-badge&logo=gmail&logoColor=white&labelColor=111111&color=111111" height="40">
 </a>
@@ -25,13 +18,9 @@ hero.svg loaded via <img> bypasses GitHub HTML sanitizer
 
 <br><br>
 
----
-
-## CONTRIBUTION GAME
-
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/adityaanand0001/adityaanand0001/output/snake-dark.svg">
-  <img src="https://raw.githubusercontent.com/adityaanand0001/adityaanand0001/output/snake.svg" width="800" alt="Snake contribution animation">
+  <img src="https://raw.githubusercontent.com/adityaanand0001/adityaanand0001/output/snake.svg" width="800" alt="Snake">
 </picture>
 
 ---
