@@ -1,148 +1,98 @@
-<svg width="880" height="320" viewBox="0 0 880 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="880" height="180" viewBox="0 0 880 180" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <style>
       .bg { fill: #0d1117; }
+      .border { stroke: #21262d; stroke-width: 1; }
 
-      /* terminal prompt */
-      .prompt {
-        font-family: 'Consolas', 'Cascadia Code', 'JetBrains Mono', 'Fira Code', monospace;
-        font-size: 14px; fill: #58a6ff; font-weight: 700;
-      }
-      .cmd {
-        font-family: 'Consolas', 'Cascadia Code', 'JetBrains Mono', 'Fira Code', monospace;
-        font-size: 14px; fill: #c9d1d9; font-weight: 400;
-      }
-      .cursor {
-        font-family: 'Consolas', 'Cascadia Code', 'JetBrains Mono', monospace;
-        font-size: 14px; fill: #58a6ff; font-weight: 700;
-      }
-
-      /* main title */
-      .title {
+      .name {
         font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
-        font-size: 48px; fill: #f0f6fc; font-weight: 700; letter-spacing: -1px;
+        font-size: 32px; fill: #f0f6fc; font-weight: 700; letter-spacing: -0.5px;
       }
-      .title-accent { fill: #58a6ff; }
-
-      /* subtitle */
+      .accent-dot { fill: #58a6ff; }
       .role {
         font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
-        font-size: 20px; fill: #8b949e; font-weight: 600;
+        font-size: 15px; fill: #8b949e; font-weight: 600;
       }
       .bio {
         font-family: 'Consolas', 'Cascadia Code', 'JetBrains Mono', monospace;
-        font-size: 13px; fill: #484f58; font-weight: 500;
+        font-size: 12px; fill: #484f58; font-weight: 500;
       }
 
-      /* divider */
-      .div { stroke: #21262d; stroke-width: 1; }
-
-      /* accent elements */
-      .node { fill: #58a6ff; opacity: 0.5; }
-      .node-bright { fill: #58a6ff; opacity: 0.9; }
-      .node-green { fill: #3fb950; opacity: 0.7; }
-      .edge { stroke: #30363d; stroke-width: 0.8; }
-      .edge-highlight { stroke: #58a6ff; stroke-width: 0.8; stroke-opacity: 0.3; }
-
-      /* tag */
-      .tag-bg { fill: #1f6feb; fill-opacity: 0.15; stroke: #1f6feb; stroke-width: 0.8; stroke-opacity: 0.3; }
+      .tag-bg { fill: #1f6feb; fill-opacity: 0.12; }
       .tag-text {
         font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
-        font-size: 12px; fill: #58a6ff; font-weight: 600;
+        font-size: 11px; fill: #58a6ff; font-weight: 600;
       }
 
-      .stats-num {
+      .div { stroke: #21262d; stroke-width: 1; }
+
+      .stat-num {
         font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
-        font-size: 28px; fill: #f0f6fc; font-weight: 700;
+        font-size: 18px; fill: #f0f6fc; font-weight: 700;
       }
-      .stats-label {
+      .stat-label {
         font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
-        font-size: 11px; fill: #484f58; font-weight: 600; letter-spacing: 1px;
+        font-size: 10px; fill: #484f58; font-weight: 600; letter-spacing: 0.5px;
       }
+
+      .node { fill: #58a6ff; opacity: 0.4; }
+      .node-green { fill: #3fb950; opacity: 0.4; }
+      .edge { stroke: #30363d; stroke-width: 0.6; }
     </style>
   </defs>
 
-  <!-- bg -->
-  <rect width="880" height="320" class="bg"/>
+  <rect width="880" height="180" class="bg"/>
 
   <!-- subtle grid -->
   <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-    <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#21262d" stroke-width="0.5" stroke-opacity="0.5"/>
+    <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#21262d" stroke-width="0.4" stroke-opacity="0.3"/>
   </pattern>
-  <rect width="880" height="320" fill="url(#grid)"/>
+  <rect width="880" height="180" fill="url(#grid)"/>
 
-  <!-- agent nodes + edges — right side network -->
-  <line x1="650" y1="60"  x2="780" y2="100" class="edge"/>
-  <line x1="780" y1="100" x2="840" y2="60"  class="edge"/>
-  <line x1="650" y1="60"  x2="720" y2="160" class="edge"/>
-  <line x1="780" y1="100" x2="720" y2="160" class="edge"/>
-  <line x1="840" y1="60"  x2="780" y2="200" class="edge"/>
-  <line x1="720" y1="160" x2="780" y2="200" class="edge"/>
-  <line x1="720" y1="160" x2="640" y2="220" class="edge"/>
-  <line x1="780" y1="200" x2="840" y2="240" class="edge"/>
-  <!-- highlighted edges -->
-  <line x1="650" y1="60"  x2="780" y2="100" class="edge-highlight"/>
-  <line x1="720" y1="160" x2="780" y2="100" class="edge-highlight"/>
+  <!-- LEFT — identity -->
+  <text x="36" y="58" class="name">Aditya Anand<tspan class="accent-dot">.</tspan></text>
 
-  <!-- agent nodes -->
-  <circle cx="650" cy="60"  r="5" class="node-bright"/>
-  <circle cx="780" cy="100" r="4" class="node"/>
-  <circle cx="840" cy="60"  r="4" class="node"/>
-  <circle cx="720" cy="160" r="5" class="node-green"/>
-  <circle cx="780" cy="200" r="3" class="node"/>
-  <circle cx="840" cy="240" r="3" class="node"/>
-  <circle cx="640" cy="220" r="3" class="node"/>
-
-  <!-- halo ring -->
-  <circle cx="650" cy="60"  r="10" fill="none" stroke="#58a6ff" stroke-width="0.8" stroke-opacity="0.2"/>
-  <circle cx="720" cy="160" r="10" fill="none" stroke="#3fb950" stroke-width="0.8" stroke-opacity="0.15"/>
-
-  <!-- pulse dot on key node -->
-  <circle cx="650" cy="60" r="8" fill="none" stroke="#58a6ff" stroke-width="1" stroke-opacity="0.1"/>
-
-  <!-- ═══════════════ LEFT SECTION ═══════════════ -->
-
-  <!-- terminal prompt line -->
-  <text x="36" y="50" class="prompt">> </text>
-  <text x="56" y="50" class="cmd">ssh aditya@github</text>
-  <text x="220" y="50" class="cursor">█</text>
-
-  <!-- main identity -->
-  <text x="36" y="120" class="title">Aditya</text>
-  <text x="36" y="170" class="title">Anand<tspan class="title-accent">.</tspan></text>
-
-  <!-- role -->
-  <text x="36" y="210" class="role">Full Stack AI Engineer</text>
-
-  <!-- bio line -->
-  <text x="36" y="240" class="bio">// autonomous agents · LLMs · full-stack systems</text>
+  <text x="36" y="84" class="role">Full Stack AI Engineer  ·  SDE-1</text>
+  <text x="36" y="106" class="bio">// autonomous agents · LLMs · full-stack systems</text>
 
   <!-- tags -->
-  <rect x="36" y="264" width="86" height="24" rx="3" class="tag-bg"/>
-  <text x="79" y="281" class="tag-text" text-anchor="middle">AI Agents</text>
+  <rect x="36" y="126" width="82" height="22" rx="3" class="tag-bg"/>
+  <text x="77" y="141" class="tag-text" text-anchor="middle">AI Agents</text>
 
-  <rect x="130" y="264" width="56" height="24" rx="3" class="tag-bg"/>
-  <text x="158" y="281" class="tag-text" text-anchor="middle">LLMs</text>
+  <rect x="126" y="126" width="52" height="22" rx="3" class="tag-bg"/>
+  <text x="152" y="141" class="tag-text" text-anchor="middle">LLMs</text>
 
-  <rect x="194" y="264" width="96" height="24" rx="3" class="tag-bg"/>
-  <text x="242" y="281" class="tag-text" text-anchor="middle">Full-Stack</text>
+  <rect x="186" y="126" width="72" height="22" rx="3" class="tag-bg"/>
+  <text x="222" y="141" class="tag-text" text-anchor="middle">Full-Stack</text>
 
-  <rect x="298" y="264" width="82" height="24" rx="3" class="tag-bg"/>
-  <text x="339" y="281" class="tag-text" text-anchor="middle">Open Source</text>
+  <rect x="266" y="126" width="78" height="22" rx="3" class="tag-bg"/>
+  <text x="305" y="141" class="tag-text" text-anchor="middle">Open Source</text>
 
-  <!-- ═══════════════ RIGHT SECTION — stats ═══════════════ -->
-  <line x1="590" y1="40" x2="590" y2="290" class="div"/>
+  <!-- RIGHT — stats -->
+  <line x1="620" y1="30" x2="620" y2="155" class="div"/>
 
-  <text x="630" y="100" class="stats-num">—</text>
-  <text x="630" y="120" class="stats-label">REPOSITORIES</text>
+  <text x="660" y="60" class="stat-num">—</text>
+  <text x="660" y="78" class="stat-label">REPOS</text>
 
-  <text x="740" y="100" class="stats-num">—</text>
-  <text x="740" y="120" class="stats-label">STARS</text>
+  <text x="740" y="60" class="stat-num">—</text>
+  <text x="740" y="78" class="stat-label">STARS</text>
 
-  <text x="630" y="170" class="stats-num">—</text>
-  <text x="630" y="190" class="stats-label">CONTRIBUTIONS</text>
+  <text x="820" y="60" class="stat-num">—</text>
+  <text x="820" y="78" class="stat-label">COMMITS</text>
 
-  <text x="740" y="170" class="stats-num">—</text>
-  <text x="740" y="190" class="stats-label">FOLLOWERS</text>
+  <text x="660" y="128" class="stat-num">—</text>
+  <text x="660" y="146" class="stat-label">FOLLOWERS</text>
+
+  <text x="740" y="128" class="stat-num">—</text>
+  <text x="740" y="146" class="stat-label">PRs</text>
+
+  <text x="820" y="128" class="stat-num">—</text>
+  <text x="820" y="146" class="stat-label">ISSUES</text>
+
+  <!-- mini agent nodes — right edge -->
+  <circle cx="590" cy="60" r="2.5" class="node"/>
+  <circle cx="590" cy="128" r="2.5" class="node-green"/>
+  <line x1="590" y1="60" x2="590" y2="128" class="edge"/>
+  <circle cx="590" cy="94" r="1.5" class="node"/>
 
 </svg>
