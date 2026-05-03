@@ -2,26 +2,21 @@
 
 <!-- ═══════════════════════════════════════════════════════════════════
 NIKE DESIGN SYSTEM — GitHub Profile README
-Tokens:  ink #111111  |  canvas #ffffff  |  soft-cloud #f5f5f5  |  sale #d30005
-All visual elements use proven external services (capsule-render, shields.io,
-github-readme-stats, etc.) — zero inline SVG, zero CSS that GitHub strips.
+
+Strategy: External SVGs (header.svg, etc.) loaded via <img> tags.
+GitHub's sanitizer only touches *inline* SVG/HTML. External files
+loaded as images bypass the sanitizer — <style> blocks, @import
+for Google Fonts, full CSS all work.
+
+Tokens:  ink #111111  |  canvas #ffffff  |  soft-cloud #f5f5f5
 ═══════════════════════════════════════════════════════════════════ -->
 
-<!-- ────────────────────────────────────
-HERO BANNER — capsule-render (proven service)
-──────────────────────────────────── -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0d0d0d&height=240&section=header&text=ADITYA%20ANAND&fontSize=52&fontColor=ffffff&fontAlignY=35&desc=FULL-STACK%20DEVELOPER%20%C2%B7%20OPEN%20SOURCE&descSize=16&descColor=9e9ea0&descAlignY=52&animation=fadeIn">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0d0d0d&height=240&section=header&text=ADITYA%20ANAND&fontSize=52&fontColor=ffffff&fontAlignY=35&desc=FULL-STACK%20DEVELOPER%20%C2%B7%20OPEN%20SOURCE&descSize=16&descColor=9e9ea0&descAlignY=52&animation=fadeIn" width="100%" alt="Aditya Anand">
-</picture>
+<!-- HERO — external SVG, full CSS including Bebas Neue + Inter via Google Fonts -->
+<img src="header.svg" width="100%" alt="Aditya Anand">
 
-<br>
+<br><br>
 
-<!-- ────────────────────────────────────
-CTA PILLS — shields.io (Nike button pair)
-primary: ink #111111  |  secondary: soft-cloud #f5f5f5
-──────────────────────────────────── -->
-
+<!-- CLICKABLE CTA PILLS (can't put links inside <img>, so these sit below) -->
 <a href="mailto:aditya.anand@monks.com">
   <img src="https://img.shields.io/badge/GET%20IN%20TOUCH-111111?style=for-the-badge&logo=gmail&logoColor=white&labelColor=111111&color=111111" height="42">
 </a>
@@ -40,7 +35,7 @@ primary: ink #111111  |  secondary: soft-cloud #f5f5f5
 
 ## TECH STACK
 
-<!-- Primary — ink chips -->
+<!-- Primary — ink chips (active filter-chip pattern) -->
 <p>
   <img src="https://img.shields.io/badge/REACT-111111?style=for-the-badge&logo=react&logoColor=white&labelColor=111111&color=111111" height="34">
   <img src="https://img.shields.io/badge/NEXT.JS-111111?style=for-the-badge&logo=nextdotjs&logoColor=white&labelColor=111111&color=111111" height="34">
@@ -49,7 +44,7 @@ primary: ink #111111  |  secondary: soft-cloud #f5f5f5
   <img src="https://img.shields.io/badge/PYTHON-111111?style=for-the-badge&logo=python&logoColor=white&labelColor=111111&color=111111" height="34">
 </p>
 
-<!-- Secondary — soft-cloud chips -->
+<!-- Secondary — soft-cloud chips (default filter-chip pattern) -->
 <p>
   <img src="https://img.shields.io/badge/DOCKER-f5f5f5?style=for-the-badge&logo=docker&logoColor=111111&labelColor=f5f5f5&color=f5f5f5" height="34">
   <img src="https://img.shields.io/badge/AWS-f5f5f5?style=for-the-badge&logo=amazonwebservices&logoColor=111111&labelColor=f5f5f5&color=f5f5f5" height="34">
@@ -96,7 +91,7 @@ primary: ink #111111  |  secondary: soft-cloud #f5f5f5
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/adityaanand0001/adityaanand0001/output/snake-dark.svg">
-  <img src="https://raw.githubusercontent.com/adityaanand0001/adityaanand0001/output/snake.svg" width="800" alt="Snake animation">
+  <img src="https://raw.githubusercontent.com/adityaanand0001/adityaanand0001/output/snake.svg" width="800" alt="Snake">
 </picture>
 
 ---
@@ -110,11 +105,6 @@ primary: ink #111111  |  secondary: soft-cloud #f5f5f5
 > **Based in India · Open to collaboration**
 
 ---
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0d0d0d&height=100&section=footer&animation=fadeIn">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=f5f5f5&height=100&section=footer&animation=fadeIn" width="100%">
-</picture>
 
 <p>
   <img src="https://komarev.com/ghpvc/?username=adityaanand0001&style=flat-square&color=111111&label=VISITORS">
