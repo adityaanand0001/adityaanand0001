@@ -20,7 +20,7 @@
   <img src="https://img.shields.io/badge/RESUME-21262d?style=for-the-badge&logo=readthedocs&logoColor=white">
 </a>
 &nbsp;
-<img src="https://komarev.com/ghpvc/?username=adityaanand0001&style=flat-square&color=blue&label=PROFILE+VIEWS">
+<img src="https://komarev.com/ghpvc/?username=adityaanand0001&style=for-the-badge&color=21262d&label=PROFILE+VIEWS">
 
 <br><br>
 
