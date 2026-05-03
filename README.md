@@ -88,29 +88,7 @@
 <!-- ABOUT -->
 <h3>🧠 ABOUT</h3>
 
-<table><tr><td>
-
-```
-> whoami
-adityaanand
-
-> role
-Full Stack AI Engineer | SDE-1
-
-> focus
-Building autonomous agent systems, RAG pipelines,
-and full-stack applications. I ship code that thinks.
-
-> currently
-🔭 Exploring multi-agent architectures
-🌱 Learning distributed systems at scale
-💡 Open to collaborating on open-source AI projects
-
-> contact
-📧 aditya.anand@monks.com
-```
-
-</td></tr></table>
+<img src="about.svg" width="100%" alt="About Aditya Anand">
 
 <br>
 

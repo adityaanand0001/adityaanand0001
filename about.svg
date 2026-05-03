@@ -1,0 +1,89 @@
+<svg width="880" height="220" viewBox="0 0 880 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .bg { fill: #0d1117; }
+      .border { stroke: #21262d; stroke-width: 1; }
+
+      .label {
+        font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+        font-size: 13px; fill: #8b949e; font-weight: 600; letter-spacing: 1px;
+      }
+      .value {
+        font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+        font-size: 15px; fill: #c9d1d9; font-weight: 600;
+      }
+      .bio {
+        font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+        font-size: 14px; fill: #8b949e; font-weight: 500; line-height: 1.6;
+      }
+
+      .dot { fill: #3fb950; }
+      .dot-orange { fill: #d29922; }
+      .dot-blue { fill: #58a6ff; }
+      .dot-purple { fill: #a371f7; }
+
+      .div { stroke: #21262d; stroke-width: 1; }
+      .accent-line { stroke: #30363d; stroke-width: 0.5; }
+
+      .tag-bg { fill: #30363d; fill-opacity: 0.5; }
+      .tag-text {
+        font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+        font-size: 12px; fill: #c9d1d9; font-weight: 500;
+      }
+
+      .section-title {
+        font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+        font-size: 16px; fill: #f0f6fc; font-weight: 700;
+      }
+    </style>
+  </defs>
+
+  <rect width="880" height="220" class="bg"/>
+
+  <!-- subtle grid match -->
+  <rect width="880" height="220" fill="none" class="border"/>
+
+  <!-- LEFT COLUMN — identity + bio -->
+  <text x="36" y="44" class="section-title">ABOUT</text>
+
+  <!-- divider under title -->
+  <line x1="36" y1="56" x2="118" y2="56" class="accent-line"/>
+
+  <text x="36" y="82" class="bio">Full Stack AI Engineer building autonomous agent systems,</text>
+  <text x="36" y="102" class="bio">RAG pipelines, and full-stack applications. I ship code that</text>
+  <text x="36" y="122" class="bio">thinks — blending LLMs with clean, performant engineering.</text>
+
+  <!-- tags -->
+  <rect x="36" y="150" width="152" height="24" rx="4" class="tag-bg"/>
+  <text x="112" y="167" class="tag-text" text-anchor="middle">Multi-Agent Systems</text>
+
+  <rect x="198" y="150" width="88" height="24" rx="4" class="tag-bg"/>
+  <text x="242" y="167" class="tag-text" text-anchor="middle">RAG &amp; LLMs</text>
+
+  <rect x="296" y="150" width="100" height="24" rx="4" class="tag-bg"/>
+  <text x="346" y="167" class="tag-text" text-anchor="middle">Full-Stack Dev</text>
+
+  <!-- RIGHT COLUMN — quick facts -->
+  <line x1="500" y1="36" x2="500" y2="184" class="accent-line"/>
+
+  <!-- role -->
+  <circle cx="520" cy="52" r="4" class="dot-blue"/>
+  <text x="536" y="49" class="label">ROLE</text>
+  <text x="536" y="67" class="value">Full Stack AI Engineer · SDE-1</text>
+
+  <!-- location -->
+  <circle cx="520" cy="94" r="4" class="dot-orange"/>
+  <text x="536" y="91" class="label">LOCATION</text>
+  <text x="536" y="109" class="value">India</text>
+
+  <!-- status -->
+  <circle cx="520" cy="136" r="4" class="dot"/>
+  <text x="536" y="133" class="label">STATUS</text>
+  <text x="536" y="151" class="value">Open to collaborate</text>
+
+  <!-- contact -->
+  <circle cx="520" cy="178" r="4" class="dot-purple"/>
+  <text x="536" y="175" class="label">CONTACT</text>
+  <text x="536" y="193" class="value">aditya.anand@monks.com</text>
+
+</svg>
