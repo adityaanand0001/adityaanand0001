@@ -69,8 +69,7 @@
 
 <!-- TROPHIES -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-trophy.vercel.app/?username=adityaanand0001&theme=darkhub&no-frame=true&margin-w=8&title=Experience,Commits,Repositories">
-  <img src="https://github-profile-trophy.vercel.app/?username=adityaanand0001&theme=darkhub&no-frame=true&margin-w=8&title=Experience,Commits,Repositories" width="100%">
+  <img src="https://github-profile-trophy.vercel.app/?username=adityaanand0001&theme=darkhub&no-frame=true&margin-w=8&title=Experience,Commits,Repositories&column=3">
 </picture>
 
 <br>
