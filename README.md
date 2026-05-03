@@ -52,27 +52,20 @@
 
 <br>
 
-<!-- GITHUB STATS -->
-<h3>📊 GITHUB STATS</h3>
-
-<p>
-  <img height="180" src="https://github-readme-stats-eight-theta.vercel.app/api?username=adityaanand0001&show_icons=true&theme=github_dark&hide_border=true&count_private=true&include_all_commits=true">
-  <img height="180" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=adityaanand0001&layout=compact&theme=github_dark&hide_border=true">
-</p>
-
-<p>
-  <img height="160" src="https://streak-stats.demolab.com?user=adityaanand0001&theme=github-dark-blue&hide_border=true&background=0d1117&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff">
-</p>
-
 <!-- ACTIVITY GRAPH -->
-<h3>📈 CONTRIBUTION GRAPH</h3>
+<h3>📈 CONTRIBUTIONS</h3>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=adityaanand0001&theme=github-dark&hide_border=true&bg_color=0d1117&color=58a6ff&line=3fb950&point=58a6ff&area=true&area_color=58a6ff">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=adityaanand0001&theme=github-dark&hide_border=true&bg_color=0d1117&color=58a6ff&line=3fb950&point=58a6ff&area=true&area_color=58a6ff" width="100%">
 </picture>
 
-<br><br>
+<br>
+
+<!-- STREAK -->
+<p>
+  <img height="150" src="https://streak-stats.demolab.com?user=adityaanand0001&theme=github-dark&hide_border=true&background=0d1117&ring=58a6ff&fire=58a6ff&sideNums=58a6ff&currStreakLabel=c9d1d9&sideLabels=8b949e&dates=484f58">
+</p>
 
 <!-- TROPHIES -->
 <picture>
@@ -83,7 +76,7 @@
 <br>
 
 <!-- SNAKE GAME -->
-<h3>🐍 CONTRIBUTION SNAKE</h3>
+<h3>🐍 SNAKE</h3>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/adityaanand0001/adityaanand0001/output/snake-dark.svg">
