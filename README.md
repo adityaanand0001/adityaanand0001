@@ -66,20 +66,7 @@
   <img src="https://img.shields.io/badge/HEALOS%20AI%20AGENT-21262d?style=for-the-badge&logo=github&logoColor=white">
 </a>
 
-<br><br>
-
-<h3>📈 CONTRIBUTIONS</h3>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=adityaanand0001&theme=github-dark&hide_border=true&bg_color=0d1117&color=58a6ff&line=3fb950&point=58a6ff&area=true&area_color=58a6ff">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=adityaanand0001&theme=github-dark&hide_border=true&bg_color=0d1117&color=58a6ff&line=3fb950&point=58a6ff&area=true&area_color=58a6ff" width="100%">
-</picture>
-
 <br>
-
-<p>
-  <img src="https://github-readme-stats.vercel.app/api?username=adityaanand0001&show_icons=true&count_private=true&include_all_commits=true&hide=stars,issues&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9">
-</p>
 
 <picture>
   <img src="https://github-profile-trophy.vercel.app/?username=adityaanand0001&theme=darkhub&no-frame=true&margin-w=8&title=Experience,Commits,Repositories&column=3&v=1">
